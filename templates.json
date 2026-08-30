@@ -1,0 +1,48 @@
+{
+  "templates": [
+    {
+      "id": "qualify-inbound-leads",
+      "title": "Qualify inbound leads",
+      "category": "Real estate",
+      "rating": 4.5,
+      "installs": 358,
+      "iconType": "cursor",
+      "categories": ["Real estate", "SAL agency"],
+      "author": "Chatfuel",
+      "whatItRuns": "After-hours coverage",
+      "whatClientGets": "Qualified handoffs",
+      "exampleOutcome": "+34% inquiries covered",
+      "aboutParagraphs": [
+        "A proven qualification system for real estate agencies using WhatsApp and AI.",
+        "Respond instantly, qualify every lead, and deliver sales-ready conversations to your team. Built for agencies that want faster response times, higher conversion rates, and a repeatable client service they can sell."
+      ],
+      "videoUrl": "",
+      "knowledgeBaseUrl": "",
+      "funnelSteps": [
+        "After-hours\ninquiry",
+        "Immediate\nanswer",
+        "Useful\ncontext",
+        "Team\nhandoff",
+        "Lead\nrecovery"
+      ],
+      "revenueMin": 16400,
+      "revenueMax": 54000,
+      "defaultClients": 15,
+      "maxClients": 25,
+      "reviews": [
+        {
+          "name": "Priya Nair",
+          "avatarIndex": 1,
+          "rating": 4.5,
+          "text": "Most clients asked prices in TikTok comments, but I couldn't reply fast enough. Chatfuel auto-replies with details and invites them to DM. I now book 3–4 new appointments every day straight from TikTok — amazing!"
+        },
+        {
+          "name": "Mariana López",
+          "avatarIndex": 2,
+          "rating": 4.5,
+          "text": "I used to miss half my DMs. Now every single message is answered instantly. The results? My chairs are full, and I don't even touch my phone."
+        }
+      ]
+    }
+  ]
+}
