@@ -1,0 +1,95 @@
+{
+  "id": "recover-quiet-leads",
+  "title": "Recover quiet leads",
+  "category": "Local services",
+  "rating": 4.2,
+  "installs": 421,
+  "iconType": "repeat",
+  "categories": [
+    "Local services",
+    "Beauty & aesthetics"
+  ],
+  "author": "priya-nair",
+  "whatItRuns": "Lead re-engagement flow",
+  "whatClientGets": "Reactivated pipeline",
+  "exampleOutcome": "+28% deals re-opened",
+  "aboutParagraphs": [
+    "Brings cold leads back with personalized WhatsApp nudges.",
+    "Identifies contacts who went silent and sends timely, personalized follow-ups that restart the conversation. Turns forgotten leads into booked appointments without any manual effort from your team."
+  ],
+  "videoUrl": "",
+  "knowledgeBaseUrl": "",
+  "funnelSteps": [
+    "Identify\nsilent lead",
+    "Personalized\nnudge",
+    "Offer or\nincentive",
+    "Re-engage\nconversation",
+    "Book\nappointment"
+  ],
+  "revenueMin": 9800,
+  "revenueMax": 29000,
+  "defaultClients": 10,
+  "maxClients": 18,
+  "reviews": [
+    {
+      "name": "Isabella Costa",
+      "avatarIndex": 1,
+      "rating": 4.0,
+      "text": "I had a list of 200 leads who never replied. This flow re-engaged 60 of them in the first week. Booked 12 appointments from leads I had basically written off."
+    },
+    {
+      "name": "Felipe Santos",
+      "avatarIndex": 2,
+      "rating": 4.5,
+      "text": "The personalized messaging is what makes the difference. Clients feel like you actually remembered them, not just sent a mass blast."
+    }
+  ],
+  "fuelyAutomationTemplate": {
+    "baseAutomations": [
+      {
+        "scope": "WhatsAppDirectMessages",
+        "settings": [
+          {
+            "whenAIReplies": {
+              "update": {
+                "option": "Always"
+              }
+            }
+          },
+          {
+            "incomingMessages": {
+              "update": {
+                "howToReply": "UsingAI",
+                "messagePrompt": "You are a friendly assistant for a local service business. When a lead reaches out, greet them warmly, acknowledge that you remember their previous interest, and ask if they are still looking for help. Offer a small incentive or next step to restart the conversation. Keep it personal and natural."
+              }
+            }
+          },
+          {
+            "followUps": {
+              "update": {
+                "howToSend": "Send",
+                "messagePrompt": "Re-engage leads who went quiet. Send a short, personal message reminding them of their previous inquiry and offering a simple next step — a question, a discount, or an invitation to book. Do not mention how long they have been silent."
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "customAutomations": [
+      {
+        "scope": "WhatsAppDirectMessages",
+        "name": "Re-engagement outreach",
+        "settings": [
+          {
+            "incomingMessages": {
+              "update": {
+                "howToReply": "UsingAI",
+                "messagePrompt": "You are reaching out to a lead who went quiet after an initial inquiry. Personalize the message using context from the conversation history. Mention what they were interested in, offer a light incentive or easy next step, and invite them to reply or book. Keep it under 3 sentences."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

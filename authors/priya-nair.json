@@ -1,0 +1,28 @@
+{
+  "id": "priya-nair",
+  "name": "Priya Nair",
+  "avatarUrl": "/assets/template-installation/avatar1.png",
+  "aboutParagraphs": [
+    "Brings cold leads back with personalized WhatsApp nudges.",
+    "Priya builds re-engagement systems for local service businesses and education providers. Her templates have recovered thousands of cold leads across 30+ client accounts with an average 25% re-engagement rate."
+  ],
+  "socialLinks": {
+    "instagram": "https://instagram.com",
+    "tiktok": "https://tiktok.com",
+    "website": "https://example.com"
+  },
+  "reviews": [
+    {
+      "name": "Ananya Sharma",
+      "avatarIndex": 1,
+      "rating": 5.0,
+      "text": "Priya's re-engagement flow brought back leads I had completely given up on. 18 appointments booked from a list of cold contacts in two weeks."
+    },
+    {
+      "name": "Rohan Mehta",
+      "avatarIndex": 2,
+      "rating": 4.0,
+      "text": "Great template, works exactly as described. The personalization makes clients feel remembered, not spammed."
+    }
+  ]
+}

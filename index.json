@@ -1,0 +1,36 @@
+{
+  "templates": [
+    {
+      "id": "qualify-inbound-leads",
+      "title": "Qualify inbound leads",
+      "category": "Real estate",
+      "rating": 4.5,
+      "installs": 358,
+      "iconType": "cursor",
+      "author": "ana-torres"
+    },
+    {
+      "id": "never-miss-after-hours",
+      "title": "Never miss after-hours",
+      "category": "Clinics",
+      "rating": 4.8,
+      "installs": 643,
+      "iconType": "moon",
+      "author": "lucas-ferreira"
+    },
+    {
+      "id": "recover-quiet-leads",
+      "title": "Recover quiet leads",
+      "category": "Local services",
+      "rating": 4.2,
+      "installs": 421,
+      "iconType": "repeat",
+      "author": "priya-nair"
+    }
+  ],
+  "authorIds": [
+    "ana-torres",
+    "lucas-ferreira",
+    "priya-nair"
+  ]
+}
