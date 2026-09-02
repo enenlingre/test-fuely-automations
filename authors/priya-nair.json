@@ -6,9 +6,9 @@
     "Brings cold leads back with personalized WhatsApp nudges.",
     "Priya builds re-engagement systems for local service businesses and education providers. Her templates have recovered thousands of cold leads across 30+ client accounts with an average 25% re-engagement rate."
   ],
-  "socialLinks": {
-    "instagram": "https://instagram.com",
-    "tiktok": "https://tiktok.com",
-    "website": "https://example.com"
-  }
+  "socialLinks": [
+    "https://instagram.com",
+    "https://tiktok.com",
+    "https://example.com"
+  ]
 }

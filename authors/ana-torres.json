@@ -6,8 +6,8 @@
     "A proven qualification system for real estate agencies using WhatsApp and AI.",
     "Ana has 8 years of experience building automation funnels for real estate teams across Latin America. Her systems have generated over $4M in qualified pipeline for agency clients."
   ],
-  "socialLinks": {
-    "instagram": "https://instagram.com",
-    "website": "https://example.com"
-  }
+  "socialLinks": [
+    "https://instagram.com",
+    "https://example.com"
+  ]
 }

@@ -6,8 +6,8 @@
     "Keeps clinics answering patients even after the front desk closes.",
     "Lucas specializes in healthcare automation, having built WhatsApp funnels for over 50 clinics. His after-hours templates alone have recovered an average of 35% of previously missed patient inquiries."
   ],
-  "socialLinks": {
-    "whatsapp": "https://wa.me/5511999999999",
-    "instagram": "https://instagram.com"
-  }
+  "socialLinks": [
+    "https://wa.me/5511999999999",
+    "https://instagram.com"
+  ]
 }

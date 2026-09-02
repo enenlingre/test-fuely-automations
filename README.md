@@ -15,7 +15,7 @@
 | `categories` | `string[]` | Все категории, к которым относится шаблон (включает основную). |
 | `rating` | `number` | Рейтинг от 1.0 до 5.0. |
 | `installs` | `number` | Количество установок. |
-| `iconType` | `"cursor" \| "moon" \| "repeat" \| "chat" \| "wa"` | Тип иконки для карточки. Цвет фона задан в коде и менять его нельзя — используй только значения из таблицы ниже. |
+| `iconType` | `"cursor" \| "moon" \| "repeat" \| "chat" \| "grow"` | Тип иконки для карточки. Цвет фона задан в коде и менять его нельзя — используй только значения из таблицы ниже. |
 | `author` | `string` | ID автора (ссылка на `authors[].id`). |
 
 ### Допустимые значения `iconType`
@@ -28,7 +28,7 @@
 | `moon`   | Синий      | `linear-gradient(-16.1deg, rgb(234,239,255) 332.97%, rgb(14,34,108) 137.04%)` |
 | `repeat` | Бирюзовый  | `linear-gradient(-19.56deg, rgb(234,255,255) 351.08%, rgb(108,30,58) 105.96%)` |
 | `chat`   | Голубой    | `linear-gradient(-19.56deg, rgb(234,247,255) 351.08%, rgb(30,85,108) 105.96%)` |
-| `wa`     | Тёмно-фиолетовый | `linear-gradient(-24.13deg, rgb(238,234,255) 201.55%, rgb(47,14,108) 124.49%)` |
+| `grow`   | Тёмно-фиолетовый | `linear-gradient(336deg, #EEEAFF -201.55%, #2F0E6C 124.49%)` |
 | `whatItRuns` | `string` | Краткое описание того, что запускает шаблон (показывается в сайдбаре страницы шаблона). |
 | `whatClientGets` | `string` | Что получает клиент (показывается в сайдбаре). |
 | `exampleOutcome` | `string` | Пример результата, например `"+34% inquiries covered"`. |
@@ -126,16 +126,7 @@
 
 ### AuthorSocialLinks
 
-Все поля опциональны. Отсутствующее поле — иконка не отображается.
-
-| Поле | Иконка |
-|------|--------|
-| `whatsapp` | `icon-wa.svg` |
-| `instagram` | `icon-social-instagram.svg` |
-| `facebook` | `icon-social-facebook.svg` |
-| `tiktok` | `icon-social-tiktok.svg` |
-| `messenger` | `icon-social-messenger.svg` |
-| `website` | `icon-globe.svg` |
+Массив строк — URL ссылок автора (`string[]`). Иконка определяется автоматически по домену: WhatsApp (`wa.me`), Instagram, Facebook, TikTok, Messenger; для остальных URL — иконка браузера (глобус).
 
 ### AuthorReview
 
