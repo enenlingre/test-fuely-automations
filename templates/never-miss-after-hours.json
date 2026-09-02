@@ -2,8 +2,6 @@
   "id": "never-miss-after-hours",
   "title": "Never miss after-hours",
   "category": "Clinics",
-  "rating": 4.8,
-  "installs": 643,
   "iconType": "moon",
   "categories": [
     "Clinics",
@@ -17,7 +15,7 @@
     "Keeps clinics answering patients even after the front desk closes.",
     "Automatically handles appointment requests, FAQ answers, and follow-up reminders around the clock. Patients get instant replies; your staff starts the day with a full, pre-qualified schedule."
   ],
-  "videoUrl": "",
+  "videoUrl": "assets/demo.mp4",
   "knowledgeBaseUrl": "",
   "funnelSteps": [
     "After-hours\nmessage",
@@ -33,15 +31,15 @@
   "reviews": [
     {
       "name": "Carlos Mendes",
-      "avatarIndex": 1,
-      "rating": 5.0,
-      "text": "We used to lose patients who called after 6 pm. Now every message is answered in seconds and they book online. Patient volume is up 40% this quarter."
+      "rating": 5,
+      "text": "We used to lose patients who called after 6 pm. Now every message is answered in seconds and they book online. Patient volume is up 40% this quarter.",
+      "avatarUrl": "assets/avatar-reviewer1.png"
     },
     {
       "name": "Sofia Andrade",
-      "avatarIndex": 2,
       "rating": 4.5,
-      "text": "Simple to set up and the patients love how fast they get answers. The reminder flow alone cut no-shows by half."
+      "text": "Simple to set up and the patients love how fast they get answers. The reminder flow alone cut no-shows by half.",
+      "avatarUrl": "assets/avatar-reviewer2.png"
     }
   ],
   "fuelyAutomationTemplate": {

@@ -2,8 +2,6 @@
   "id": "recover-quiet-leads",
   "title": "Recover quiet leads",
   "category": "Local services",
-  "rating": 4.2,
-  "installs": 421,
   "iconType": "repeat",
   "categories": [
     "Local services",
@@ -33,15 +31,15 @@
   "reviews": [
     {
       "name": "Isabella Costa",
-      "avatarIndex": 1,
-      "rating": 4.0,
-      "text": "I had a list of 200 leads who never replied. This flow re-engaged 60 of them in the first week. Booked 12 appointments from leads I had basically written off."
+      "rating": 4,
+      "text": "I had a list of 200 leads who never replied. This flow re-engaged 60 of them in the first week. Booked 12 appointments from leads I had basically written off.",
+      "avatarUrl": "assets/avatar-reviewer1.png"
     },
     {
       "name": "Felipe Santos",
-      "avatarIndex": 2,
       "rating": 4.5,
-      "text": "The personalized messaging is what makes the difference. Clients feel like you actually remembered them, not just sent a mass blast."
+      "text": "The personalized messaging is what makes the difference. Clients feel like you actually remembered them, not just sent a mass blast.",
+      "avatarUrl": "assets/avatar-reviewer2.png"
     }
   ],
   "fuelyAutomationTemplate": {

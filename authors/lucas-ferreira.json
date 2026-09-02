@@ -1,7 +1,7 @@
 {
   "id": "lucas-ferreira",
   "name": "Lucas Ferreira",
-  "avatarUrl": "/assets/template-installation/avatar2.png",
+  "avatarUrl": "assets/avatar2.png",
   "aboutParagraphs": [
     "Keeps clinics answering patients even after the front desk closes.",
     "Lucas specializes in healthcare automation, having built WhatsApp funnels for over 50 clinics. His after-hours templates alone have recovered an average of 35% of previously missed patient inquiries."
@@ -9,19 +9,5 @@
   "socialLinks": {
     "whatsapp": "https://wa.me/5511999999999",
     "instagram": "https://instagram.com"
-  },
-  "reviews": [
-    {
-      "name": "Dr. Carolina Melo",
-      "avatarIndex": 1,
-      "rating": 5.0,
-      "text": "After installing Lucas's template, we stopped losing patients to competitors who replied faster. Our booking rate jumped 40% in the first month."
-    },
-    {
-      "name": "Fernanda Ribeiro",
-      "avatarIndex": 2,
-      "rating": 4.5,
-      "text": "The setup was smooth and the support from Lucas was excellent. Patients love the fast replies, even on weekends."
-    }
-  ]
+  }
 }

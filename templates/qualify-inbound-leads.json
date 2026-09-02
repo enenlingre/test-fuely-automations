@@ -2,8 +2,6 @@
   "id": "qualify-inbound-leads",
   "title": "Qualify inbound leads",
   "category": "Real estate",
-  "rating": 4.5,
-  "installs": 358,
   "iconType": "cursor",
   "categories": [
     "Real estate",
@@ -33,15 +31,15 @@
   "reviews": [
     {
       "name": "Priya Nair",
-      "avatarIndex": 1,
       "rating": 4.5,
-      "text": "Most clients asked prices in TikTok comments, but I couldn't reply fast enough. Chatfuel auto-replies with details and invites them to DM. I now book 3–4 new appointments every day straight from TikTok — amazing!"
+      "text": "Most clients asked prices in TikTok comments, but I couldn't reply fast enough. Chatfuel auto-replies with details and invites them to DM. I now book 3–4 new appointments every day straight from TikTok — amazing!",
+      "avatarUrl": "assets/avatar-reviewer1.png"
     },
     {
       "name": "Mariana López",
-      "avatarIndex": 2,
       "rating": 4.5,
-      "text": "I used to miss half my DMs. Now every single message is answered instantly. The results? My chairs are full, and I don't even touch my phone."
+      "text": "I used to miss half my DMs. Now every single message is answered instantly. The results? My chairs are full, and I don't even touch my phone.",
+      "avatarUrl": "assets/avatar-reviewer2.png"
     }
   ],
   "fuelyAutomationTemplate": {
